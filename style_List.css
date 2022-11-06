@@ -1,0 +1,11 @@
+ ol {
+    list-style-type: upper-roman; /* Задаем стиль счетчика списка */
+    list-style-position: inside; /* Задаем позицию */
+    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+
+  }
+
+  ul:nth-of-type(1) {
+    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+    list-style-type: disc;  /* Задаем форму пункта */
+  }

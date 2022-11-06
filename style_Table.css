@@ -1,0 +1,22 @@
+    table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; /* Задаем шрифт */
+    border-collapse: collapse;  /* Определяем границы вокруг ячеек */
+    margin-left: auto;  /* Задаем позиции по левому краю */
+    margin-right: auto; /* Задаем позиции по правому краю */
+    }
+
+    th, td:first-child {
+    background: #AFCDE7; /* Устанавливаем цвет фона */
+    border-color: black;  /* Устанавливаем цвет границы */
+    }
+
+    th, td {
+    border-style: solid;  /* Задаем стиль границы */
+    }
+    
+    td {
+    background: #D8E6F3;  /* Устанавливаем цвет фона */
+    }
+    th:first-child, td:first-child {
+    text-align: center; /* Устанавливаем выравнивание текста */
+    }
